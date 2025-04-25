@@ -195,9 +195,9 @@ int main(void)
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0, 4);
-  Lcd_string(&lcd, "DEPT-AI&DS");
+  Lcd_string(&lcd, "DEPT-CSE(CS)");
   Lcd_cursor(&lcd, 1, 2);
-  Lcd_string(&lcd, " RAMYA R");
+  Lcd_string(&lcd, "SATHYAA R");
 
   while (1)
   {
